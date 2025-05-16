@@ -1,4 +1,3 @@
-# backend/cache_system/cache_manager.py
 import sqlite3
 from datetime import datetime
 
