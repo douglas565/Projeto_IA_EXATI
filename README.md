@@ -31,7 +31,7 @@ Sistema inteligente para análise de luminárias no EXATI, com detecção de:
 - Redução de 70% no tempo de processamento
 
 
-## Fluxograma 🔛
+## 🔛 Fluxograma 
 
 <img src="fluxograma.png" alt="fl" />
 
