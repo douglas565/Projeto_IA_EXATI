@@ -7,6 +7,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
+
 Sistema inteligente para análise de luminárias no EXATI, com detecção de:
 - Potência da luminária
 - Tipo (LED ou não-LED)
