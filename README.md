@@ -28,7 +28,12 @@ Sistema inteligente para análise de luminárias no EXATI, com detecção de:
 
 ✅ **Sistema de Cache**  
 - Armazenamento local de resultados  
-- Redução de 70% no tempo de processamento  
+- Redução de 70% no tempo de processamento
+
+
+## Fluxograma 🔛
+
+<img src="fluxograma.png" alt="fl" />
 
 ## 🚀 Como Executar
 
