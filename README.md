@@ -1,6 +1,4 @@
-# README.md para o Projeto EXATI IA - Detecção de Luminárias
 
-```markdown
 # EXATI IA - Sistema de Detecção de Luminárias
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -122,13 +120,3 @@ Adicione estas seções opcionais se relevante:
 - [Guia de Treinamento do Modelo](docs/model_training.md)
 - [Manual de Integração com EXATI](docs/exati_integration.md)
 - [FAQ](docs/faq.md)
-
-Este README fornece:
-- Visual profissional com badges
-- Seções bem organizadas
-- Instruções claras de instalação
-- Estrutura de projeto visível
-- Informações para contribuidores
-- Destaque para as principais funcionalidades
-
-Quer que eu adicione ou modifique alguma seção específica?
