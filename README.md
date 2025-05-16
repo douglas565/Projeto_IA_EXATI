@@ -94,10 +94,8 @@ exati-ia-luminarias/
 Distribuído sob licença MIT. Veja `LICENSE` para mais informações.
 
 ## ✉️ Contato
-Seu Nome - [@seu_twitter](https://twitter.com/seu_twitter) - seu-email@exemplo.com
 
-Link do Projeto: [https://github.com/seu-usuario/exati-ia-luminarias](https://github.com/seu-usuario/exati-ia-luminarias)
-```
+Link do Projeto: [https://github.com/seu-usuario/exati-ia-luminarias](https://github.com/douglas565/exati-ia-luminarias)
 
 ## 🔍 Visualização Adicional
 
