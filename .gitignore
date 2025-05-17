@@ -178,4 +178,7 @@ cython_debug/
 /assets/datasets/
 /venv/
 *.log
-__pycache__
+
+__pycache____pycache__/
+config/.env
+*.log
