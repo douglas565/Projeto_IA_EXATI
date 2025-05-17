@@ -3,8 +3,8 @@ import os
 import logging
 from openpyxl import load_workbook
 from datetime import datetime
-from ..web_capture.crawler_exati import ExatiCrawler
-from ..image_processing.led_classifier import LEDClassifier
+from core.infrastructure.web_capture.crawler_exati import ExatiCrawler
+from core.infrastructure.computer_vision.led_classifier import LEDClassifier
 from ..cache_system.cache_manager import CacheManager
 from ..data_validation.validator import LuminariaValidator
 
