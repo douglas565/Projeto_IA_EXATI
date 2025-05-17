@@ -1,25 +1,19 @@
-from fastapi import FastAPI, UploadFile, HTTPException
-from fastapi.staticfiles import StaticFiles
-from core.back_end.web_capture.crawler_exati import ExatiCrawler
 import os
+from dotenv import load_dotenv
+from back_end.services.ai_service import AIService
+from core.domain.entities import Luminaire
 
-app = FastAPI()
+load_dotenv()
 
-# Configuração básica
-app.mount("/static", StaticFiles(directory="static"), name="static")
+def main():
+    # Configuração
+    ai = AIService(os.getenv("TESSERACT_PATH"))
+    
+    # Exemplo de processamento
+    sample_image = "assets/screenshots/SAAC-001.png"
+    result = ai.process_image(sample_image)
+    
+    print(result.to_dict())
 
-@app.post("/api/analyze")
-async def analyze(id_saac: str):
-    crawler = ExatiCrawler()
-    try:
-        crawler.login()
-        img_path = crawler.search_by_id(id_saac)
-        return {
-            "status": "success",
-            "image": img_path,
-            "id": id_saac
-        }
-    except Exception as e:
-        raise HTTPException(status_code=400, detail=str(e))
-    finally:
-        crawler.close()
+if __name__ == "__main__":
+    main()
